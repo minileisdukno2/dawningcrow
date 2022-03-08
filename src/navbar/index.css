@@ -1,0 +1,41 @@
+li{
+    list-style: none;
+    transition: all 0.4s;
+    z-index: 100;
+}
+li:hover{
+    transform: scale(1.1);
+}
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+.navbar_container{
+    position: sticky;
+    top: 0;
+    width: 100vw;
+    z-index: 12;
+    transform: rotate(90deg) translateY(-100vh);
+    transform-origin: top left;
+}
+
+.main-nav{
+    position: relative;
+    display: flex;
+    padding: 2em 4em;
+    z-index: 12;
+}
+
+.main-nav .ul_second{
+    position: fixed;
+    display: flex;
+    right: 4em;
+}
+
+.main-nav .ul_second li{
+    font-family: 'Almarai', sans-serif;
+    margin-right: 6rem; 
+    margin-top: 1rem;
+    font-size: 1.2rem;  
+}

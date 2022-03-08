@@ -1,0 +1,35 @@
+.loadingScreenContainer{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    min-height: 100vh;
+    background: white;
+}
+
+.container1{
+    position: relative;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    margin-bottom: 10px;
+}
+
+.loadingScreenImage{
+    position: relative;
+    width: 300px;
+    border-radius: 15px;
+    box-shadow: 5px 4px black;
+}
+
+.container2{
+    position: relative;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.loadingScreenGif{
+    position: relative;
+    width: 150px;
+}
+

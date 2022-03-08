@@ -1,0 +1,138 @@
+
+.container{
+    width: 400vw;
+    display: flex;
+    flex-direction: row;
+  transform: rotate(90deg) translateY(-100vh);
+  transform-origin: top left;
+}
+
+.main-container{
+    width: 100vh;
+  height: 100vw;
+  transform: rotate(-90deg) translateX(-100vh);
+  transform-origin: top left;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  position: absolute;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  scroll-behavior: smooth;
+
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+
+/* FIRST SECTION */
+.container .first_section{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.container .first_section .first_image{
+    width: 500px;
+    position: relative;
+    right: 200px;
+}
+
+.container .first_section .first_image img{
+    width: 500px;
+}
+
+.container .first_section .content{
+    width: 500px;
+    z-index: 10;
+}
+
+.container .first_section .content img{
+    width: 500px;
+    margin-bottom: 1rem;
+}
+
+.container .first_section .content p{
+    font-family: 'Syne Mono', monospace;
+    margin-left: 3rem;
+}
+
+.container .first_section .content2{
+    width: 500px;
+}
+
+.container .first_section .content2 p{
+    font-family: 'Shadows Into Light', cursive;
+    color: black;
+    font-size: 3rem;
+}
+
+/* SECOND SECTION */
+.container .second_section{
+    background-image: url('../image/home_page/homepagepic2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100%;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    z-index: 10;
+}
+
+.container .second_section .content p{
+    font-family: 'Shadows Into Light', cursive;
+    color: white;
+    font-size: 8rem;
+}
+
+/* THIRD SECTION */
+.container .third_section{
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    z-index: 10;
+}
+
+.container .third_section p{
+    font-family: 'Shadows Into Light', cursive;
+    color: black;
+    font-size: 8rem;
+    margin-top: 4rem;
+}
+
+.container .third_section .third_image{
+   display: flex;
+   justify-content:center;
+   align-items:center;
+   margin-top: 2rem;
+
+}
+
+.container .third_section .third_image img{
+    width: 300px;
+}
+
+/* chung */
+.btn{
+    margin-top: 4rem;
+    display: inline-block;
+    padding: 10px 40px;
+    background-color: #f7f4ef;
+    font-family: 'Syne Mono', monospace;
+}
+
+.btn:hover{
+    transform: scale(0.97);
+    background-color: #d1c9c2;
+}
+
+/* else */
+
