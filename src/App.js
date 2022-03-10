@@ -1,7 +1,10 @@
-import React, {useState, useEffect} from 'react';
-import "./app.css";
+import React, { useState, useEffect } from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+                                        //Phai import cai routes nay moi chuyen dc trang
 import Screenloading from "./loading_screen/index";
-import Homepage from './home-page/index';
+import Home from "./Home";
+import Aboutpage from "./about-page/index";
+import "./app.css";
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -10,20 +13,20 @@ function App() {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    }, 0)
-  }, [])
+    }, 2000);
+  }, []);
 
   return (
-    <div>
-      {
-        loading ? 
+    <Router>
+      {loading ? (
         <Screenloading />
-        :
-        <Homepage />
-      }
-      
-      
-    </div>
+      ) : (
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/aboutpage" element={<Aboutpage />} />
+        </Routes>
+      )}
+    </Router>
   );
 }
 
