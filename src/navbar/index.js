@@ -7,7 +7,7 @@ const navbarContainer = () => {
             <nav className="main-nav">
                 <ul className="ul_first">
                     <li className="logo">
-                        <a href="#shop">
+                        <a href="">
                             <img src={logo} alt="logo" width="350"></img>
                         </a>
                     </li>
