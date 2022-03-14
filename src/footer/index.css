@@ -1,0 +1,21 @@
+.footer_container {
+    font-family: 'Syne Mono', monospace;
+
+    width: 100vw;
+    height: 10vh;
+    display: relative;
+}
+
+.footer_body {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer_body ul{
+    display: flex;
+}
+
+.footer_body ul li{
+    margin-left: 140px;
+    font-size: 18px;
+}

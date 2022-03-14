@@ -1,6 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300&display=swap');
+/* font-family: 'Almarai', sans-serif; */
+
 @import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+/* font-family: 'Syne Mono', monospace; */
+
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap'); 
+/* font-family: 'Shadows Into Light', cursive; */
+
+@import url('https://fonts.googleapis.com/css2?family=Amiri&display=swap');
+/* font-family: 'Amiri', serif; */
 *{
     margin: 0;
     padding: 0;

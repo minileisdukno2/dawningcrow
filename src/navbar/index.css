@@ -25,6 +25,8 @@ a{
     display: flex;
     padding: 2em 4em;
     z-index: 12;
+
+
 }
 
 .main-nav .ul_second{
@@ -34,7 +36,9 @@ a{
 }
 
 .main-nav .ul_second li{
-    font-family: 'Almarai', sans-serif;
+    /* font-family: 'Almarai', sans-serif; */
+    font-family: 'Syne Mono', monospace;
+
     margin-right: 6rem; 
     margin-top: 1rem;
     font-size: 1.2rem;  
