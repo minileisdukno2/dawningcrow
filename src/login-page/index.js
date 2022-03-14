@@ -28,7 +28,7 @@ const Loginpage = () => {
               </label>
               <br></br>
               <input type="submit" value="LOG IN" className="submit"/> <br></br>
-              <a href="#reset_password">Forgot your password</a>
+              <a href="/forgotpassword">Forgot your password</a>
             </form>
           </div>
 

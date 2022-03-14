@@ -5,6 +5,7 @@ import Screenloading from "./loading_screen/index";
 import Home from "./Home";
 import Aboutpage from "./about-page/index";
 import Loginpage from "./login-page/index";
+import Forgotpasswordpage from "./login-page/forgot_password/index";
 import "./app.css";
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/aboutpage" element={<Aboutpage />} />
           <Route path="/loginpage" element={<Loginpage />} />
+          <Route path="/forgotpassword" element={<Forgotpasswordpage />} />
         </Routes>
       )}
     </Router>
