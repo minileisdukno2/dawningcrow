@@ -1,0 +1,79 @@
+.Login_main_container{
+    width: 100vw;
+    height: 80vh;
+}
+
+.Login_main_container h3{
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.Login_body_contianer{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Login_body_contianer .Login_container{
+    width: 500px;
+    margin:2rem;
+}
+
+.Login_body_contianer .Login_container h1{
+    font-size: 20px;
+    font-family: 'Shadows Into Light', cursive;
+    margin-bottom: 1rem;
+    text-decoration: underline;
+}
+
+.Login_body_contianer .Login_container form label{
+    font-size: 14px;
+    font-family: 'Almarai', sans-serif;
+}
+
+.Login_body_contianer .Login_container form label .input{
+    width: 90%;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Amiri', serif;
+    box-sizing: border-box;
+    padding: 12px 10px;
+}
+
+.Login_body_contianer .Login_container form label .checkbox{
+    margin-right: 20px
+}
+
+.Login_body_contianer .Login_container form .submit{
+    background-color: black; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    font-family: 'Shadows Into Light', cursive;
+    margin-bottom: 5px;
+
+}
+
+.Login_body_contianer .Login_container form .submit:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.Login_body_contianer .Login_container form a{
+    text-transform: none;
+    font-family: 'Amiri', serif; 
+}
+
+.Login_body_contianer .Login_container form a:hover{
+    opacity: 0.8;
+}

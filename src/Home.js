@@ -48,15 +48,15 @@ const Homepage = () => {
           </div>
         </section>
 
-        <section id="contact" class="first_section">
+        <section id="login" class="first_section">
           <div className="first_image">
             <img src={Homepagepic4} alt="Homepage pic 4" />
           </div>
 
           <div className="content2">
-            <p>NEED INFORMATION ?</p>
-            <a href="#" className="btn">
-              CONTACT NOW!
+            <p>Want to join ?</p>
+            <a href="/loginpage" className="btn">
+              Login/ Register
             </a>
           </div>
         </section>

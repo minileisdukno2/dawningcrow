@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Screenloading from "./loading_screen/index";
 import Home from "./Home";
 import Aboutpage from "./about-page/index";
+import Loginpage from "./login-page/index";
 import "./app.css";
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/aboutpage" element={<Aboutpage />} />
+          <Route path="/loginpage" element={<Loginpage />} />
         </Routes>
       )}
     </Router>

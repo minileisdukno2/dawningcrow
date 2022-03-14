@@ -21,8 +21,8 @@ const navbarContainerForAll = (props) => {
                 <ul>
                     <li><a href="#shop">SHOP</a></li>
                     <li><a href="#work">WORK</a></li>
-                    <li><a href="#about">ABOUT</a></li>
-                    <li><a href="#contact">CONTACT</a></li>
+                    <li><a href="/aboutpage">ABOUT</a></li>
+                    <li><a href="/loginpage">LOGIN</a></li>
                 </ul>
             </header>
         </div>
