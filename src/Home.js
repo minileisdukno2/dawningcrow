@@ -26,11 +26,11 @@ const Homepage = () => {
           </div>
         </section>
 
-        <section id="work" class="second_section">
+        <section id="contact" class="second_section">
           <div className="content">
-            <p>MY WORK</p>
-            <a href="#" className="btn">
-              SHOW MORE!
+            <p>Any questions?</p>
+            <a href="/contactpage" className="btn">
+              CONTACT NOW!
             </a>
           </div>
         </section>
@@ -42,9 +42,9 @@ const Homepage = () => {
           </div>
 
           <div className="content">
-            <Link to="/aboutpage" className="btn">
+            <a href="/aboutpage" className="btn">
               DISCOVER!
-            </Link>
+            </a>
           </div>
         </section>
 

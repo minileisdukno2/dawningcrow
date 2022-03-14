@@ -14,7 +14,7 @@ const navbarContainer = () => {
                 </ul>
                 <ul className="ul_second">
                     <li><a href="#shop">SHOP</a></li>
-                    <li><a href="#work">WORK</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
                     <li><a href="#about">ABOUT</a></li>
                     <li><a href="#login">LOGIN</a></li>
                 </ul>

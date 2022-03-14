@@ -20,7 +20,7 @@ const navbarContainerForAll = (props) => {
                 </a>
                 <ul>
                     <li><a href="#shop">SHOP</a></li>
-                    <li><a href="#work">WORK</a></li>
+                    <li><a href="/contactpage">CONTACT</a></li>
                     <li><a href="/aboutpage">ABOUT</a></li>
                     <li><a href="/loginpage">LOGIN</a></li>
                 </ul>
