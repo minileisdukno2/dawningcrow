@@ -19,7 +19,7 @@ const navbarContainerForAll = (props) => {
                     <img src={logo} width="350" />
                 </a>
                 <ul>
-                    <li><a href="#shop">SHOP</a></li>
+                    <li><a href="/shoppingpage">SHOP</a></li>
                     <li><a href="/contactpage">CONTACT</a></li>
                     <li><a href="/aboutpage">ABOUT</a></li>
                     <li><a href="/loginpage">LOGIN</a></li>

@@ -1,0 +1,17 @@
+.ShoppingPage_container {
+  width: 100vw;
+  height: 80vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.ShoppingPage_work {
+  background-image: url("../image/shopping_page/shoppingpage_work.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  width: 500px;
+  height: 500px;
+}

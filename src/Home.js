@@ -20,7 +20,7 @@ const Homepage = () => {
           <div className="content">
             <img src={Logo} alt="Title" />
             <p>© 2021 Dawning Crow</p>
-            <a href="#" className="btn">
+            <a href="/shoppingpage" className="btn">
               SHOP NOW!
             </a>
           </div>
