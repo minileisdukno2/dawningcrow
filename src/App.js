@@ -8,6 +8,8 @@ import Loginpage from "./login-page/index";
 import Forgotpasswordpage from "./login-page/forgot_password/index";
 import Contactpage from "./contact_page/index";
 import ShoppingPage from "./shop-page/index";
+import MyWorkPage from "./shop-page/my_work_page/index";
+import Itempage from "./shop-page/items_page/index"
 import "./app.css";
 
 function App() {
@@ -32,6 +34,8 @@ function App() {
           <Route path="/forgotpassword" element={<Forgotpasswordpage />} />
           <Route path="/contactpage" element={<Contactpage />} />
           <Route path="/shoppingpage" element={<ShoppingPage />} />
+          <Route path="/my_work" element={<MyWorkPage />} />
+          <Route path="/item" element={<Itempage />} />
         </Routes>
       )}
     </Router>

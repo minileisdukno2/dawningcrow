@@ -1,0 +1,26 @@
+.MyWorkPage_menu{
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    justify-content: center;
+    margin-bottom: 5vh;
+    margin-top: 10vh;
+}
+.MyWorkPage_menu ul{
+    width: 50%;
+    border-top: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.MyWorkPage_menu ul li{
+    margin: 20px;
+    font-family: 'Almarai', sans-serif;
+}
+.MyWorkPage_menu ul p{
+    margin: 20px;
+    font-family: 'Almarai', sans-serif;
+    text-decoration: underline;
+}
