@@ -2,6 +2,7 @@ import Navbarforall from "../../navbarforall/index";
 import "./index.css";
 import Footer from "../../footer/index";
 import Menuforall from "../../menuforall/index";
+import RelatedItem from "../related-item/index";
 
 const Itempage = () => {
   return (
@@ -27,6 +28,8 @@ const Itempage = () => {
           <input type="submit" value="Add to basket"></input>
         </div>
       </div>
+      <p className="Related_products_title">RELATED PRODUCTS</p>
+      <RelatedItem />
       <Footer />
     </div>
   );

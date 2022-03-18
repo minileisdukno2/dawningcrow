@@ -16,7 +16,9 @@ const navbarContainer = () => {
                     <li><a href="#shop">SHOP</a></li>
                     <li><a href="#contact">CONTACT</a></li>
                     <li><a href="#about">ABOUT</a></li>
-                    <li><a href="#login">LOGIN</a></li>
+                    <li><a href="#login">
+                        <div className="accountIcon"></div>    
+                    </a></li>
                 </ul>
             </nav>
         </div>
