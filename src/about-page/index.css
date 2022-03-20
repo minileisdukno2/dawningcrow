@@ -1,111 +1,318 @@
-.aboutpage_container{
-    width: 100vw;
+.aboutpage_container {
+  width: 100vw;
 }
-.aboutpage_main_container{
-    margin-bottom: 30vh;
+.aboutpage_main_container {
+  margin-bottom: 30vh;
 }
-.aboutpage_first_section{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    height: 80vh;
-}
-
-.aboutpage_first_section .artist_profile_image{
-    background-image: url(../image/about_page/artist_image.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    width: 500px;
-    height: 500px;
+.aboutpage_first_section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 80vh;
 }
 
-.aboutpage_first_section .aboutpage_content{
-    height: 500px;
+.aboutpage_first_section .artist_profile_image {
+  background-image: url(../image/about_page/artist_image.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 500px;
+  height: 500px;
+}
+
+.aboutpage_first_section .artist_profile_image2 {
+  background-image: url(../image/about_page/artist_image.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 500px;
+  height: 500px;
+  display: none;
+}
+
+.aboutpage_first_section .aboutpage_content {
+  height: 500px;
+  margin-right: 10rem;
+}
+
+.aboutpage_first_section .aboutpage_content text {
+  font-family: "Syne Mono", monospace;
+}
+
+.aboutpage_first_section .aboutpage_content h1 {
+  font-family: "Shadows Into Light", cursive;
+  font-size: 5rem;
+  letter-spacing: 15px;
+  margin-bottom: 10rem;
+}
+
+.aboutpage_first_section .aboutpage_content p {
+  font-family: "Amiri", serif;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+.aboutpage_second_section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 120vh;
+}
+
+.aboutpage_second_section .artist_profile_image {
+  background-image: url(../image/about_page/artist_image2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 500px;
+  height: 500px;
+}
+
+.aboutpage_second_section p {
+  font-family: "Amiri", serif;
+}
+
+.aboutpage_third_section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 80vh;
+}
+
+.aboutpage_third_section .shop_profile_image {
+  background-image: url(../image/home_page/homepagepic3.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 500px;
+  height: 500px;
+}
+
+.aboutpage_third_section .shop_profile_image2 {
+  background-image: url(../image/home_page/homepagepic3.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 500px;
+  height: 500px;
+  display: none;
+}
+
+.aboutpage_third_section .aboutpage_content {
+  height: 500px;
+  margin-right: 10rem;
+}
+
+.aboutpage_third_section .aboutpage_content text {
+  font-family: "Syne Mono", monospace;
+}
+
+.aboutpage_third_section .aboutpage_content h1 {
+  font-family: "Shadows Into Light", cursive;
+  font-size: 4rem;
+  letter-spacing: 15px;
+  margin-bottom: 10rem;
+}
+
+.aboutpage_third_section .aboutpage_content p {
+  font-family: "Amiri", serif;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+@media (max-width: 1200px) {
+  .aboutpage_first_section .artist_profile_image {
+    width: 400px;
+    height: 400px;
+  }
+  .aboutpage_first_section .aboutpage_content {
+    height: 400px;
     margin-right: 10rem;
-}
+  }
+  .aboutpage_first_section .aboutpage_content h1 {
+    margin-bottom: 5rem;
+  }
 
-.aboutpage_first_section .aboutpage_content text{
-    font-family: 'Syne Mono', monospace;
-}
+  .aboutpage_second_section .artist_profile_image {
+    width: 400px;
+    height: 400px;
+  }
 
-.aboutpage_first_section .aboutpage_content h1{
-    font-family: 'Shadows Into Light', cursive; 
-    font-size: 5rem;
-    letter-spacing: 15px;
-    margin-bottom: 10rem;
-}
-
-.aboutpage_first_section .aboutpage_content p{
-    font-family: 'Amiri', serif;
-    font-size: 16px;
-    letter-spacing: 1px;
-}
-
-
-
-
-.aboutpage_second_section{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    height: 120vh;
-}
-
-.aboutpage_second_section .artist_profile_image{
-    background-image: url(../image/about_page/artist_image2.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    width: 500px;
-    height: 500px;
-}
-
-.aboutpage_second_section p{
-    font-family: 'Amiri', serif;
-}
-
-
-
-
-
-.aboutpage_third_section{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    height: 80vh;
-}
-
-.aboutpage_third_section .shop_profile_image{
-    background-image: url(../image/home_page/homepagepic3.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    width: 500px;
-    height: 500px;
-}
-
-.aboutpage_third_section .aboutpage_content{
-    height: 500px;
+  .aboutpage_third_section .shop_profile_image {
+    width: 400px;
+    height: 400px;
+  }
+  .aboutpage_third_section .aboutpage_content {
+    height: 400px;
     margin-right: 10rem;
+  }
+
+  .aboutpage_third_section .aboutpage_content h1 {
+    margin-bottom: 5rem;
+  }
+  .aboutpage_main_container {
+    margin-bottom: 20vh;
+  }
 }
 
-.aboutpage_third_section .aboutpage_content text{
-    font-family: 'Syne Mono', monospace;
-}
-
-.aboutpage_third_section .aboutpage_content h1{
-    font-family: 'Shadows Into Light', cursive; 
-    font-size: 4rem;
+@media (max-width: 1024px) {
+  .aboutpage_first_section .artist_profile_image {
+    width: 300px;
+    height: 300px;
+  }
+  .aboutpage_first_section .aboutpage_content {
+    height: 300px;
+    margin-right: 8rem;
+  }
+  .aboutpage_first_section .aboutpage_content h1 {
+    margin-bottom: 5rem;
+    font-size: 3rem;
     letter-spacing: 15px;
-    margin-bottom: 10rem;
-}
-
-.aboutpage_third_section .aboutpage_content p{
-    font-family: 'Amiri', serif;
+  }
+  .aboutpage_first_section .aboutpage_content p {
+    font-family: "Amiri", serif;
     font-size: 14px;
-    letter-spacing: 1px;
+  }
+
+  .aboutpage_second_section .artist_profile_image {
+    width: 300px;
+    height: 300px;
+  }
+  .aboutpage_second_section .aboutpage_content {
+    font-size: 14px;
+  }
+
+  .aboutpage_third_section .shop_profile_image {
+    width: 300px;
+    height: 300px;
+  }
+  .aboutpage_third_section .aboutpage_content {
+    height: 300px;
+    margin-right: 8rem;
+  }
+
+  .aboutpage_third_section .aboutpage_content h1 {
+    margin-bottom: 5rem;
+    font-size: 3rem;
+    letter-spacing: 15px;
+  }
+  .aboutpage_main_container {
+    margin-bottom: 20vh;
+  }
 }
 
+@media (max-width: 900px) {
+  .aboutpage_first_section .artist_profile_image {
+    width: 250px;
+    height: 250px;
+  }
+  .aboutpage_first_section .aboutpage_content {
+    width: 250px;
+    height: 250px;
+    margin-right: 0rem;
+  }
+  .aboutpage_first_section .aboutpage_content h1 {
+    margin-bottom: 3rem;
+    font-size: 2rem;
+    letter-spacing: 15px;
+  }
+  .aboutpage_first_section .aboutpage_content p {
+    font-family: "Amiri", serif;
+    font-size: 12px;
+  }
 
+  .aboutpage_second_section .artist_profile_image {
+    width: 250px;
+    height: 250px;
+  }
+  .aboutpage_second_section .aboutpage_content {
+    width: 250px;
+    height: 250px;
+    font-size: 12px;
+  }
 
+  .aboutpage_third_section .shop_profile_image {
+    width: 250px;
+    height: 250px;
+  }
+  .aboutpage_third_section .aboutpage_content {
+    height: 250px;
+    width: 250px;
+    margin-right: 0rem;
+  }
+
+  .aboutpage_third_section .aboutpage_content h1 {
+    margin-bottom: 3rem;
+    font-size: 2rem;
+    letter-spacing: 15px;
+  }
+  .aboutpage_main_container {
+    margin-bottom: 20vh;
+  }
+}
+
+@media (max-width: 500px) {
+  .aboutpage_first_section {
+    display: contents;
+  }
+  .aboutpage_first_section .artist_profile_image {
+    display: none;
+  }
+  .aboutpage_first_section .artist_profile_image2 {
+    display: block;
+    background-size: 80%;
+  }
+  .aboutpage_first_section .aboutpage_content {
+    height: 600px;
+    margin-right: 0;
+    width: 100%;
+    padding: 10px;
+  }
+  .aboutpage_first_section .aboutpage_content h1 {
+    margin-bottom: 3rem;
+  }
+  .aboutpage_first_section .aboutpage_content p {
+    font-size: 16px;
+  }
+
+  .aboutpage_second_section {
+    display: contents;
+  }
+  .aboutpage_second_section .artist_profile_image {
+    background-size: 80%;
+    width: 500px;
+    height: 500px;
+  }
+  .aboutpage_second_section .aboutpage_content {
+    height: 600px;
+    margin-right: 0;
+    width: 100%;
+    padding: 10px;
+  }
+  .aboutpage_second_section p {
+    font-size: 14px;
+  }
+
+  .aboutpage_third_section {
+    display: contents;
+  }
+  .aboutpage_third_section .shop_profile_image {
+    display: none;
+  }
+  .aboutpage_third_section .shop_profile_image2 {
+    background-size: 80%;
+    display: block;
+  }
+  .aboutpage_third_section .aboutpage_content {
+    height: 600px;
+    margin-right: 0;
+    width: 100%;
+    padding: 10px;
+  }
+  .aboutpage_second_section p {
+    font-size: 16px;
+  }
+  .aboutpage_third_section .aboutpage_content h1 {
+    margin-bottom: 3rem;
+  }
+}

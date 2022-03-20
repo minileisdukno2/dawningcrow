@@ -33,3 +33,9 @@
     font-size: 18px;
   }
 }
+
+@media (max-width: 480px) {
+  .footer_body {
+    display: none;
+  }
+}
