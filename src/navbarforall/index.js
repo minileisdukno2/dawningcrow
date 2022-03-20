@@ -15,7 +15,7 @@ const navbarContainerForAll = (props) => {
     <div className="navbar-for-all_container">
       <header>
         <a href="/" className="logo">
-          <img src={logo} width="350" />
+          <img src={logo} />
         </a>
         <input type="checkbox" id="click"></input>
         <label for="click" className="navbar_menu">

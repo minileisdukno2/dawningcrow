@@ -1,20 +1,35 @@
 .footer_container {
-    font-family: 'Syne Mono', monospace;
-    width: 100vw;
-    height: 10vh;
-    display: relative;
+  font-family: "Syne Mono", monospace;
+  width: 100vw;
+  height: 10vh;
+  display: relative;
 }
 
 .footer_body {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 
-.footer_body ul{
-    display: flex;
+.footer_body ul {
+  display: flex;
 }
 
-.footer_body ul li{
-    margin-left: 140px;
+.footer_body ul li {
+  margin-left: 140px;
+  font-size: 18px;
+}
+
+@media (max-width: 1200px) {
+  .footer_body {
+    display: block;
+    text-align: center;
+    line-height: 1.5rem;
+  }
+  .footer_body ul {
+    display: block;
+  }
+  .footer_body ul li {
+    margin-left: 0px;
     font-size: 18px;
+  }
 }
