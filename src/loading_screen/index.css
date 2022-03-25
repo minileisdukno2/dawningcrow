@@ -44,3 +44,13 @@
     width: 100%;
   }
 }
+
+@media screen and (max-width:813px) and (max-height:415px) and (orientation : landscape){
+  .loadingScreenImage {
+    width: 15%;
+  }
+  .container2 {
+    width: 100%;
+  }
+
+}
