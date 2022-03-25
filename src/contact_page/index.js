@@ -40,7 +40,7 @@ const Contactpage = () => {
                 ></input>
                 <br></br>
               </label>
-              <button type="submit">Submit</button>
+              <button type="submit" className="contact_submit">Submit</button>
             </form>
           </div>
         </div>

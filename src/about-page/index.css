@@ -316,3 +316,98 @@
     margin-bottom: 3rem;
   }
 }
+
+@media screen and (max-width: 414px)  and (max-height: 812px) {
+  .aboutpage_first_section {
+    display: contents;
+  }
+  .aboutpage_first_section .artist_profile_image {
+    display: none;
+  }
+  .aboutpage_first_section .artist_profile_image2 {
+    display: inline-block;
+    background-size: 80%;
+    width: 100vw;
+    height: 500px;
+  }
+  .aboutpage_first_section .aboutpage_content {
+    height: 600px;
+    margin-right: 0;
+    width: 100%;
+    padding: 10px;
+  }
+  .aboutpage_first_section .aboutpage_content h1 {
+    margin-bottom: 3rem;
+  }
+  .aboutpage_first_section .aboutpage_content p {
+    font-size: 16px;
+  }
+
+  .aboutpage_second_section {
+    display: contents;
+  }
+  .aboutpage_second_section .artist_profile_image {
+    background-size: 80%;
+    width: 100vw;
+    height: 500px;
+  }
+  .aboutpage_second_section .aboutpage_content {
+    height: 600px;
+    margin-right: 0;
+    width: 100%;
+    padding: 10px;
+  }
+  .aboutpage_second_section p {
+    font-size: 14px;
+  }
+
+  .aboutpage_third_section {
+    display: contents;
+  }
+  .aboutpage_third_section .shop_profile_image {
+    display: none;
+  }
+  .aboutpage_third_section .shop_profile_image2 {
+    background-size: 80%;
+    display: inline-block;
+    width: 100vw;
+    height: 500px;
+  }
+  .aboutpage_third_section .aboutpage_content {
+    height: 600px;
+    margin-right: 0;
+    width: 100%;
+    padding: 10px;
+  }
+  .aboutpage_second_section p {
+    font-size: 16px;
+  }
+  .aboutpage_third_section .aboutpage_content h1 {
+    margin-bottom: 3rem;
+  }
+}
+
+@media screen and (max-width: 812px)  and (max-height: 414px) {
+  .aboutpage_main_container{
+    margin-top: 10vh;
+    margin-bottom: 40vh;
+  }
+  .aboutpage_third_section{
+    margin-top:30vh;
+    margin-bottom: 10vh;
+  }
+}
+
+@media screen and (max-width: 568px)  and (max-height: 320px) {
+  .aboutpage_main_container{
+    margin-top: 15vh;
+    margin-bottom: 50vh;
+  }
+  .aboutpage_second_section{
+    margin-top:20vh;
+  }
+  .aboutpage_third_section{
+    margin-top:40vh;
+    margin-bottom: 10vh;
+  }
+}
