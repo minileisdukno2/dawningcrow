@@ -9,6 +9,7 @@
   align-items: center;
   justify-content: space-around;
   height: 80vh;
+  width: 100vw;
 }
 
 .aboutpage_first_section .artist_profile_image {
@@ -317,7 +318,7 @@
   }
 }
 
-@media screen and (max-width: 414px)  and (max-height: 812px) {
+@media screen and (max-width: 415px)  and (max-height: 812px) {
   .aboutpage_first_section {
     display: contents;
   }
@@ -386,6 +387,7 @@
     margin-bottom: 3rem;
   }
 }
+
 
 @media screen and (max-width: 812px)  and (max-height: 414px) {
   .aboutpage_main_container{
