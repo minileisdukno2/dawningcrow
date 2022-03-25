@@ -10,24 +10,20 @@ import Contactpage from "./contact_page/index";
 import ShoppingPage from "./shop-page/index";
 import MyWorkPage from "./shop-page/my_work_page/index";
 import Itempage from "./shop-page/items_page/index"
-import AuthContext from'./contexts/auth';
 import "./app.css";
 
 function App() {
   const [loading, setLoading] = useState(false);
-  const [user, setUser] = useState(null);
 
   useEffect(() => {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    }, 2000);
+    }, 1000000);
   }, []);
 
   return (
-    <div>
-      <AuthContext.Provider value= {{user: user, setUser: setUser}}>
-      <Router>
+    <Router>
       {loading ? (
         <Screenloading />
       ) : (
@@ -43,10 +39,6 @@ function App() {
         </Routes>
       )}
     </Router>
-      </AuthContext.Provider>
-       
-    </div>
-   
   );
 }
 

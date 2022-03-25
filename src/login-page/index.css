@@ -62,6 +62,7 @@
     font-family: 'Shadows Into Light', cursive;
     margin-bottom: 5px;
     transition: 0.5s;
+
 }
 
 .Login_body_contianer .Login_container form .submit:hover{
@@ -77,21 +78,16 @@
     opacity: 0.8;
 }
 
-@media (max-width: 1200px){
+@media screen and (max-width: 812px) and (max-height: 600px) { 
     .Login_main_container{
-        margin-bottom: 30px;
-    }
-}
-
-@media (max-width: 600px){
-    .Login_main_container{
-        margin-bottom: 30px;
+        width: 100vw;
         height: 150vh;
     }
-    
-    .Login_body_contianer{
-        display: contents;
-    }
-    
 }
 
+@media screen and (max-width: 568px) and (max-height: 320px) { 
+    .Login_main_container{
+        width: 100vw;
+        height: 160vh;
+    }
+}
