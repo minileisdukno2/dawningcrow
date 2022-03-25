@@ -1,22 +1,16 @@
 {
   "my_work": [
     {
-      "id": 3,
-      "image": "https://thuthuatnhanh.com/wp-content/uploads/2019/12/ngam-anh-hot-girl-cute.jpg",
-      "title": "Ảnh mèo nằm ngủ",
-      "price": "800"
-    },
-    {
       "id": 4,
+      "title": "Ảnh mèo nằm ngủkkkk",
       "image": "https://thuthuatnhanh.com/wp-content/uploads/2019/12/ngam-anh-hot-girl-cute.jpg",
-      "title": "Ảnh mèo nằm ngủ",
       "price": "800"
     },
     {
+      "id": 5,
+      "title": "Anh hoang hon 4555",
       "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg",
-      "title": "Anh hoang hon",
-      "price": "100",
-      "id": 5
+      "price": "100"
     }
   ],
   "product": [
