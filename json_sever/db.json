@@ -1,0 +1,38 @@
+{
+  "my_work": [
+    {
+      "id": 3,
+      "image": "https://thuthuatnhanh.com/wp-content/uploads/2019/12/ngam-anh-hot-girl-cute.jpg",
+      "title": "Ảnh mèo nằm ngủ",
+      "price": "800"
+    },
+    {
+      "id": 4,
+      "image": "https://thuthuatnhanh.com/wp-content/uploads/2019/12/ngam-anh-hot-girl-cute.jpg",
+      "title": "Ảnh mèo nằm ngủ",
+      "price": "800"
+    },
+    {
+      "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg",
+      "title": "Anh hoang hon",
+      "price": "100",
+      "id": 5
+    }
+  ],
+  "product": [
+    {
+      "id": 1,
+      "image": "https://instagram.fhan3-4.fna.fbcdn.net/v/t51.2885-15/274000047_331949498950878_659313843330864012_n.jpg?stp=dst-webp_e35&cb=9ad74b5e-95d2b877&_nc_ht=instagram.fhan3-4.fna.fbcdn.net&_nc_cat=106&_nc_ohc=sPrCZRFUjycAX-sz_SJ&edm=ALQROFkBAAAA&ccb=7-4&ig_cache_key=Mjc3NDc1MDQyNzE4NTI2MjY1Mg%3D%3D.2-ccb7-4&oh=00_AT-qMiRwcFdt4Ci7s5o6lL-7PLuH7EVPKzQYeSn4qFRbsA&oe=62412DEA&_nc_sid=30a2ef",
+      "title": "Mèo đi bộ",
+      "price": "1000"
+    }
+  ],
+  "capynbara": [
+    {
+      "id": 1,
+      "image": "https://thuthuatnhanh.com/wp-content/uploads/2019/12/ngam-anh-hot-girl-cute.jpg",
+      "title": "Ảnh mèo nằm ngủ",
+      "price": "2000"
+    }
+  ]
+}
