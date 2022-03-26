@@ -10,8 +10,8 @@ const Itempage = () => {
       <Navbarforall />
       <Menuforall />
       <div className="Item_container">
-        <img src="" />
-        <div>
+        <img className="Item_image" src="" />
+        <div className="Item_info"> 
           <h3>TITLE</h3>
           <p>$...</p>
           <select className="select_amount" name="option">

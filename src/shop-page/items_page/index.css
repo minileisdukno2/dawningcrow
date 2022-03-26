@@ -6,23 +6,23 @@
     justify-content: space-around;
 }
 
-.Item_container img{
+.Item_container .Item_image{
     border: 1px solid black;
     width: 1053px;
     height: 600px;
 }
 
-.Item_container div{
+.Item_container .Item_info{
     width: 330px;
     height: 670px;
 }
-.Item_container div h3{
+.Item_container .Item_info h3{
     font-family: 'Shadows Into Light', cursive;
-    font-size: 3rem;
+    font-size: 4rem;
     margin-bottom: 3rem;
 }
 
-.Item_container div p{
+.Item_container .Item_info p{
     font-family: 'Almarai', sans-serif;
     font-size: 25px;
     margin-bottom: 5rem;
@@ -44,6 +44,7 @@
     background-repeat: no-repeat;
     background-size: 30px;
     background-position: right 20px top 50%;
+    margin-top: 5rem;
 }
 
 .select_amount:focus {

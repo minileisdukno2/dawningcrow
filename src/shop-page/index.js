@@ -21,10 +21,10 @@ const ShoppingPage = () => {
               <img src={shoppingPagepic2} />
               <p>PRODUCT</p>
             </div>
-            <div className="ShoppingPage_Products_Exhibition">
+            <a href="exhibition" className="ShoppingPage_Products_Exhibition">
               <img src={shoppingPagepic3} />
               <p>Exhibitions</p>
-            </div>
+            </a>
           </div>
           <div className="ShoppingPage_Others_2">
             <div>
