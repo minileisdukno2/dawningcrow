@@ -24,7 +24,7 @@ const MyWorkPage = () => {
           return (
             <div className="MyWorkPage_items" key={myWork.id}>
               <a href={`/my_work/${myWork.id}`}>
-                <img src={myWork.image} className="myWork_image" />
+                <img src={myWork.image} alt={myWork.title} className="myWork_image" />
                 <div>
                   <p>{myWork.title}</p>
                   <p>${myWork.price}</p>

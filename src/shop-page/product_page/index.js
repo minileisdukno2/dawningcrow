@@ -24,7 +24,7 @@ const Product = () => {
           return (
             <div className="MyWorkPage_items" key={product.id}>
               <a href={`/product/${product.id}`}>
-                <img src={product.image} className="myWork_image" />
+                <img src={product.image} alt={product.title} className="myWork_image" />
                 <div>
                   <p>{product.title}</p>
                   <p>${product.price}</p>

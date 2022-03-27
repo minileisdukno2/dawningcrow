@@ -24,7 +24,7 @@ const Capynbara = () => {
           return (
             <div className="MyWorkPage_items" key={capynbara.id}>
               <a href={`/my_work/${capynbara.id}`}>
-                <img src={capynbara.image} className="myWork_image" />
+                <img src={capynbara.image} alt={capynbara.title} className="myWork_image" />
                 <div>
                   <p>{capynbara.title}</p>
                   <p>${capynbara.price}</p>
