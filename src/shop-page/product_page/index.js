@@ -23,7 +23,7 @@ const Product = () => {
         {products.map((product) => {
           return (
             <div className="MyWorkPage_items" key={product.id}>
-              <a href="/item">
+              <a href={`/product/${product.id}`}>
                 <img src={product.image} className="myWork_image" />
                 <div>
                   <p>{product.title}</p>
