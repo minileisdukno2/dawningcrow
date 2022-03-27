@@ -17,21 +17,21 @@ const ShoppingPage = () => {
         </a>
         <div className="ShoppingPage_Others">
           <div className="ShoppingPage_Others_1">
-            <div className="ShoppingPage_Products_Exhibition">
+            <a href="product" className="ShoppingPage_Products_Exhibition">
               <img src={shoppingPagepic2} />
               <p>PRODUCT</p>
-            </div>
+            </a>
             <a href="exhibition" className="ShoppingPage_Products_Exhibition">
               <img src={shoppingPagepic3} />
               <p>Exhibitions</p>
             </a>
           </div>
-          <div className="ShoppingPage_Others_2">
+          <a href="capynbara" className="ShoppingPage_Others_2">
             <div>
               <img src={shoppingPagepic4} />
             </div>
             <p>CAPYNBARA</p>
-          </div>
+          </a>
         </div>
       </div>
       <Footer />

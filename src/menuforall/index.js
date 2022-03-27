@@ -9,13 +9,13 @@ const Menuforall = () => {
             <a href="my_work">MY WORK</a>
           </li>
           <li>
-            <a href="#">PRODUCT</a>
+            <a href="product">PRODUCT</a>
           </li>
           <li>
             <a href="exhibition">Exhibition</a>
           </li>
           <li>
-            <a href="#">CAPYNBARA</a>
+            <a href="capynbara">CAPYNBARA</a>
           </li>
         </ul>
       </div>

@@ -11,6 +11,8 @@ import ShoppingPage from "./shop-page/index";
 import MyWorkPage from "./shop-page/my_work_page/index";
 import ExhibitionPage from "./shop-page/exhibition_page/index"; 
 import Itempage from "./shop-page/items_page/index";
+import Product from "./shop-page/product_page/index";
+import Capynbara from "./shop-page/capynbara_page/index";
 import "./app.css";
 
 function App() {
@@ -36,6 +38,8 @@ function App() {
           <Route path="/contactpage" element={<Contactpage />} />
           <Route path="/shoppingpage" element={<ShoppingPage />} />
           <Route path="/my_work" element={<MyWorkPage />} />
+          <Route path="/product" element={<Product />} />
+          <Route path="/capynbara" element={<Capynbara />} />
           <Route path="/exhibition" element={<ExhibitionPage />} />
           <Route path="/item" element={<Itempage />} />
         </Routes>
