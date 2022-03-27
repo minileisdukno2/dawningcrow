@@ -23,7 +23,7 @@ const Capynbara = () => {
         {capynbaras.map((capynbara) => {
           return (
             <div className="MyWorkPage_items" key={capynbara.id}>
-              <a href={`/my_work/${capynbara.id}`}>
+              <a href={`/capynbara/${capynbara.id}`}>
                 <img src={capynbara.image} alt={capynbara.title} className="myWork_image" />
                 <div>
                   <p>{capynbara.title}</p>

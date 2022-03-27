@@ -241,32 +241,6 @@
       "price": "1200"
     }
   ],
-  "product": [
-    {
-      "id": 1,
-      "image": "https://upload.wikimedia.org/wikipedia/vi/1/1d/N%C6%A1i_n%C3%A0y_c%C3%B3_anh_-_Single_Cover.jpg",
-      "title": "son tung ",
-      "price": "40000"
-    },
-    {
-      "id": 4,
-      "image": "https://upload.wikimedia.org/wikipedia/vi/1/1d/N%C6%A1i_n%C3%A0y_c%C3%B3_anh_-_Single_Cover.jpg",
-      "title": "son tung ",
-      "price": "40000"
-    },
-    {
-      "id": 5,
-      "image": "https://image.thanhnien.vn/w1024/Uploaded/2022/tnabtw/2021_12_09/ta03-7305.jpg",
-      "title": "ha an",
-      "price": "400"
-    }
-  ],
-  "capynbara": [
-    {
-      "id": 1,
-      "image": "https://thuthuatnhanh.com/wp-content/uploads/2019/12/ngam-anh-hot-girl-cute.jpg",
-      "title": "Ảnh mèo nằm ngủ",
-      "price": "2000"
-    }
-  ]
+  "product": [],
+  "capynbara": []
 }

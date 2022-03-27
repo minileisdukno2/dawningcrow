@@ -8,7 +8,7 @@ const RelatedItem = ({ list }) => {
   return (
     <div className="related_items_container">
       <div className="related_items">
-        {list.slice(0,5).map((item) =>{ 
+        {list.slice(0,6).map((item) =>{ 
           return (
             <a href={`/${params.collection}/${item.id}`}>
             <img src={item.image} alt={item.title}/>
