@@ -1,51 +1,25 @@
+import {useParams} from "react-router-dom";
 import "./index.css";
 
-const RelatedItem = () => {
+const RelatedItem = ({ list }) => {
+
+  const params = useParams();
+  
   return (
     <div className="related_items_container">
       <div className="related_items">
-        <a href="/item">
-          <img src="" />
-          <div>
-            <p>Title</p>
-            <p>$...</p>
-          </div>
-        </a>
-        <a href="/item">
-          <img src="" />
-          <div>
-            <p>Title</p>
-            <p>$...</p>
-          </div>
-        </a>
-        <a href="/item">
-          <img src="" />
-          <div>
-            <p>Title</p>
-            <p>$...</p>
-          </div>
-        </a>
-        <a href="/item">
-          <img src="" />
-          <div>
-            <p>Title</p>
-            <p>$...</p>
-          </div>
-        </a>
-        <a href="/item">
-          <img src="" />
-          <div>
-            <p>Title</p>
-            <p>$...</p>
-          </div>
-        </a>
-        <a href="/item">
-          <img src="" />
-          <div>
-            <p>Title</p>
-            <p>$...</p>
-          </div>
-        </a>
+        {list.slice(0,5).map((item) =>{ 
+          return (
+            <a href={`/${params.collection}/${item.id}`}>
+            <img src={item.image} alt={item.title}/>
+            <div>
+              <p>{item.title}</p>
+              <p>${item.price}</p>
+            </div>
+          </a>
+          )
+        })}
+        
       </div>
     </div>
   );

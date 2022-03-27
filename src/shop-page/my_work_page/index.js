@@ -23,7 +23,7 @@ const MyWorkPage = () => {
         {myWorks.map((myWork) => {
           return (
             <div className="MyWorkPage_items" key={myWork.id}>
-              <a href="/item">
+              <a href={`/my_work/${myWork.id}`}>
                 <img src={myWork.image} className="myWork_image" />
                 <div>
                   <p>{myWork.title}</p>
