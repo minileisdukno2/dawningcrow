@@ -16,11 +16,19 @@
     height: 400px;
 }
 .MyWorkPage_items a img{
-    border: 1px solid black;
     width: 325px;
     height: 325px;
     margin-bottom: 20px;
+    border: 1px solid whitesmoke;
+    transition: all 0.5s;
 }
+
+.MyWorkPage_items a img:hover{
+    transform: scale(1.05);
+}
+
+
+
 .MyWorkPage_items a div p{
     padding: 2px 20px;
     
